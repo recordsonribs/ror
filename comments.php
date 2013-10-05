@@ -46,11 +46,11 @@
 				<small><?php cancel_comment_reply_link(); ?></small>
 			</div>
 			<?php if ( get_option('comment_registration') && !$user_ID ) : ?>
-				<p>You must be <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?redirect_to=<?php echo urlencode(get_permalink()); ?>">logged in</a> to post a comment.</p>
+				<p>You must be <a href="<?php echo home_url(); ?>/wp-login.php?redirect_to=<?php echo urlencode(get_permalink()); ?>">logged in</a> to post a comment.</p>
 			<?php else : ?>
-				<form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform">
+				<form action="<?php echo home_url(); ?>/wp-comments-post.php" method="post" id="commentform">
 					<?php if ( $user_ID ) : ?>
-						<p>Logged in as <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>. <a href="<?php echo wp_logout_url(get_permalink()); ?>" title="Log out of this account">Log out &raquo;</a></p>
+						<p>Logged in as <a href="<?php echo home_url(); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>. <a href="<?php echo wp_logout_url(get_permalink()); ?>" title="Log out of this account">Log out &raquo;</a></p>
 					<?php else : ?>
 						<div class="item"><label for="author">Name:</label><input type="text" name="author" id="author" value="<?php echo $comment_author; ?>" size="22" tabindex="1" /><span class="required"><small><?php if ($req) echo "Required"; ?></small></span><div class="clear"></div></div>
 						<div class="item"><label for="email">E-Mail:</label><input type="text" name="email" id="email" value="<?php echo $comment_author_email; ?>" size="22" tabindex="2" /><span class="required"><small><?php if ($req) echo "Required"; ?></small></span><div class="clear"></div></div>

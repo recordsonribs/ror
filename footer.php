@@ -34,14 +34,14 @@
 
 		<div class="colgroup2">
 			<div class="col1 albums">
-				<h2><a href="<?php echo get_option('siteurl'); ?>/releases/" title="Recent Releases">Releases</a> &rsaquo;</h2>
+				<h2><a href="<?php echo home_url(); ?>/releases/" title="Recent Releases">Releases</a> &rsaquo;</h2>
 				<?php
 					global $releases, $release, $artist;
 					$releases = list_recent_releases_blurb('10');
 					while ( have_releases () ) : the_release() ; ?>
 					<?php $artist = get_artist($release['release_artist']); ?>
 						<div class="artist_slug">
-							<a href="<?php echo get_option('siteurl'); ?>/artists/<?php artist_slug(); ?>/<?php release_slug(); ?>"><img src="<?php release_cover_tiny ();?>" alt="<?php release_title(); ?>" title="<?php release_title(); ?>" /></a>
+							<a href="<?php echo home_url(); ?>/artists/<?php artist_slug(); ?>/<?php release_slug(); ?>"><img src="<?php release_cover_tiny ();?>" alt="<?php release_title(); ?>" title="<?php release_title(); ?>" /></a>
 						</div>
 					<?php endwhile; ?>
 			</div>

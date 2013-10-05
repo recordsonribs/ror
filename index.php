@@ -21,24 +21,24 @@ Template Name: Index Page
 					<div id="first">
 						<h3>Latest Release</h3>
 						<div class="album_art">
-							<a href="<?php echo get_option('siteurl'); ?>/artists/<?php artist_slug(); ?>/<?php release_slug(); ?>" title="<?php release_title(); ?>"><span style="background: url(<?php release_cover_large();?>) no-repeat center center;"><em><?php release_title(); ?></em></span></a>
+							<a href="<?php echo home_url(); ?>/artists/<?php artist_slug(); ?>/<?php release_slug(); ?>" title="<?php release_title(); ?>"><span style="background: url(<?php release_cover_large();?>) no-repeat center center;"><em><?php release_title(); ?></em></span></a>
 						</div>
 						<div class="blurb">
 							<?php $artist = get_artist($release['release_artist']); ?>
 							<div class="ribcage-release">
-								<small class="artist"><strong><a href="<?php echo get_option('siteurl'); ?>/artists/<?php artist_slug(); ?>/"><?php artist_name(); ?></a></strong></small>
-								<h1 class="album"><a href="<?php echo get_option('siteurl'); ?>/artists/<?php artist_slug(); ?>/<?php release_slug(); ?>"><?php release_title(); ?></a></h1>
+								<small class="artist"><strong><a href="<?php echo home_url(); ?>/artists/<?php artist_slug(); ?>/"><?php artist_name(); ?></a></strong></small>
+								<h1 class="album"><a href="<?php echo home_url(); ?>/artists/<?php artist_slug(); ?>/<?php release_slug(); ?>"><?php release_title(); ?></a></h1>
 								<p><?php release_blurb_short(); ?></p>
 							</div> <!-- end div.ribcage-release -->
 							<div class="artist_slug_info">
 								<ul class="artist_slug_meta">
-									<li class="more"><a href="<?php echo get_option('siteurl'); ?>/artists/<?php artist_slug(); ?>/<?php release_slug(); ?>">More</a></li>
+									<li class="more"><a href="<?php echo home_url(); ?>/artists/<?php artist_slug(); ?>/<?php release_slug(); ?>">More</a></li>
 									<li class="listen"><a href="javascript:popUp('<?php release_player_link (); ?>')">Listen</a></li>
 									<?php if (release_physical()) : ?>
-										<li class="download"><a href="<?php echo get_option('siteurl'); ?>/download/<?php release_slug(); ?>/" title="Free Download">Download</a></li>
-										<li class="last buy"><a href="<?php get_option('siteurl'); ?>/buy/<?php release_product_id(); ?>">Buy</a></li>
+										<li class="download"><a href="<?php echo home_url(); ?>/download/<?php release_slug(); ?>/" title="Free Download">Download</a></li>
+										<li class="last buy"><a href="<?php home_url(); ?>/buy/<?php release_product_id(); ?>">Buy</a></li>
 									<?php else: ?>
-										<li class="download"><a href="<?php echo get_option('siteurl'); ?>/download/<?php release_slug(); ?>/" title="Free Download">Download</a></li>
+										<li class="download"><a href="<?php echo home_url(); ?>/download/<?php release_slug(); ?>/" title="Free Download">Download</a></li>
 										<li class="last buy disabled"><span class="buy">Buy</span></li>									<?php endif; ?>
 								</ul>
 								<div class="clear"></div>
@@ -49,11 +49,11 @@ Template Name: Index Page
 							<?php random_artist(); ?>
 							<div class="blurb">
 							<div class="featured_artist">
-								<a href="<?php echo get_option('siteurl'); ?>/artists/<?php artist_slug(); ?>" title="<?php release_title(); ?>"><span style="background: url(<?php artist_thumb(); ?>) no-repeat center center;"><em><?php artist_name(); ?></em></span></a>
+								<a href="<?php echo home_url(); ?>/artists/<?php artist_slug(); ?>" title="<?php release_title(); ?>"><span style="background: url(<?php artist_thumb(); ?>) no-repeat center center;"><em><?php artist_name(); ?></em></span></a>
 							</div>
-								<h1><a href="<?php echo get_option('siteurl'); ?>/artists/<?php artist_slug(); ?>" title="<?php artist_name(); ?>"><?php artist_name(); ?></a></h1>
+								<h1><a href="<?php echo home_url(); ?>/artists/<?php artist_slug(); ?>" title="<?php artist_name(); ?>"><?php artist_name(); ?></a></h1>
 								<p><?php artist_blurb_tiny(); ?></p>
-								<p class="more_link"><a href="<?php echo get_option('siteurl'); ?>/artists/" title="Artists">more artists &rsaquo;</a></p>
+								<p class="more_link"><a href="<?php echo home_url(); ?>/artists/" title="Artists">more artists &rsaquo;</a></p>
 							</div>
 							<div class="clear"></div>
 						</div>
@@ -73,19 +73,19 @@ Template Name: Index Page
 								<?php $artist = get_artist($release['release_artist']); ?>
 								<div class="artist_slug">
 									<div class="album_art">
-										<a class="slug" href="<?php echo get_option('siteurl'); ?>/artists/<?php artist_slug(); ?>/<?php release_slug(); ?>"><img src="<?php release_cover_tiny();?>" alt="<?php release_title(); ?>" title="<?php release_title(); ?>" /></a>
+										<a class="slug" href="<?php echo home_url(); ?>/artists/<?php artist_slug(); ?>/<?php release_slug(); ?>"><img src="<?php release_cover_tiny();?>" alt="<?php release_title(); ?>" title="<?php release_title(); ?>" /></a>
 										<div class="artist_slug_info">
 											<ul class="artist_slug_main">
-												<li class="artist"><a href="<?php echo get_option('siteurl'); ?>/artists/<?php artist_slug(); ?>/"><?php artist_name(); ?></a><h2><a href="<?php echo get_option('siteurl'); ?>/artists/<?php artist_slug(); ?>/<?php release_slug(); ?>"><?php release_title(); ?></a></h2></li>
+												<li class="artist"><a href="<?php echo home_url(); ?>/artists/<?php artist_slug(); ?>/"><?php artist_name(); ?></a><h2><a href="<?php echo home_url(); ?>/artists/<?php artist_slug(); ?>/<?php release_slug(); ?>"><?php release_title(); ?></a></h2></li>
 											</ul>
 											<ul class="artist_slug_meta">
-												<li class="more"><a href="<?php echo get_option('siteurl'); ?>/artists/<?php artist_slug(); ?>/<?php release_slug(); ?>">More</a></li>
+												<li class="more"><a href="<?php echo home_url(); ?>/artists/<?php artist_slug(); ?>/<?php release_slug(); ?>">More</a></li>
 												<li class="listen"><a href="javascript:popUp('<?php release_player_link (); ?>')">Listen</a></li>
 											<?php if (release_physical()) : ?>
-												<li class="download"><a href="<?php echo get_option('siteurl'); ?>/download/<?php release_slug(); ?>/">Free Download</a></li>
-												<li class="last buy"><a href="<?php get_option('siteurl'); ?>/buy/<?php release_product_id(); ?>">Buy</a></li>
+												<li class="download"><a href="<?php echo home_url(); ?>/download/<?php release_slug(); ?>/">Free Download</a></li>
+												<li class="last buy"><a href="<?php home_url(); ?>/buy/<?php release_product_id(); ?>">Buy</a></li>
 											<?php else: ?>
-												<li class="last download"><a href="<?php echo get_option('siteurl'); ?>/download/<?php release_slug(); ?>/">Free Download</a></li>
+												<li class="last download"><a href="<?php echo home_url(); ?>/download/<?php release_slug(); ?>/">Free Download</a></li>
 											<?php endif; ?>
 											</ul>
 										</div> <!-- end div.artist_slug_info -->
@@ -122,14 +122,14 @@ Template Name: Index Page
 							//Reset Query
 							wp_reset_query();
 						?>
-						<p class="more_link"><a href="<?php echo get_option('siteurl'); ?>/blog/" title="News">more news &rsaquo;</a></p>
+						<p class="more_link"><a href="<?php echo home_url(); ?>/blog/" title="News">more news &rsaquo;</a></p>
 					</div> <!-- end div.col4 -->
 					<div class="mod col5">
 						<h3>Events</h3>
 						<ul class="events">
 							<?php dbem_get_events_list("limit=3&scope=al&order=DESC"); ?>
 						</ul>
-						<p class="more_link"><a href="<?php echo get_option('siteurl'); ?>/events/" title="Events">more events &rsaquo;</a></p>
+						<p class="more_link"><a href="<?php echo home_url(); ?>/events/" title="Events">more events &rsaquo;</a></p>
 					</div> <!-- end div.col5 -->
 					<div class="mod col7">
 						<h3>Links</h3>
