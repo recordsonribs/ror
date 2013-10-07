@@ -23,7 +23,13 @@
 	</div>
 	<div id="nav">
 		<ul>
-			<?php wp_list_pages('title_li=&exclude=60,7,13,14,15,35,45,41,43,42,224,345,20,435,461&link_before=<span>&link_after=</span>&sort_column=menu_order'); ?>
+			<li><a href="http://recordsonribs.com/blog/"><span>Blog</span></a></li>
+			<li><a href="http://recordsonribs.com/artists/"><span>Artists</span></a></li>
+			<li><a href="http://recordsonribs.com/releases/"><span>Releases</span></a></li>
+			<li><a href="http://recordsonribs.com/events/"><span>Events</span></a></li>
+			<li><a href="http://recordsonribs.com/manifesto/"><span>Manifesto</span></a></li>
+			<li><a href="http://recordsonribs.com/donate/"><span>Donate</span></a></li>
+			<li><a href="http://recordsonribs.com/contact/"><span>Contact</span></a></li>
 		</ul>
 	</div>
 	<div class="clear"></div>
