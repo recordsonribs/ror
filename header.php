@@ -23,13 +23,13 @@
 	</div>
 	<div id="nav">
 		<ul>
-			<li><a href="http://recordsonribs.com/blog/"><span>Blog</span></a></li>
-			<li><a href="http://recordsonribs.com/artists/"><span>Artists</span></a></li>
-			<li><a href="http://recordsonribs.com/releases/"><span>Releases</span></a></li>
-			<li><a href="http://recordsonribs.com/events/"><span>Events</span></a></li>
-			<li><a href="http://recordsonribs.com/manifesto/"><span>Manifesto</span></a></li>
-			<li><a href="http://recordsonribs.com/donate/"><span>Donate</span></a></li>
-			<li><a href="http://recordsonribs.com/contact/"><span>Contact</span></a></li>
+			<li><a href="/blog/"><span>Blog</span></a></li>
+			<li><a href="/artists/"><span>Artists</span></a></li>
+			<li><a href="/releases/"><span>Releases</span></a></li>
+			<li><a href="/events/"><span>Events</span></a></li>
+			<li><a href="/manifesto/"><span>Manifesto</span></a></li>
+			<li><a href="/donate/"><span>Donate</span></a></li>
+			<li><a href="/contact/"><span>Contact</span></a></li>
 		</ul>
 	</div>
 	<div class="clear"></div>
