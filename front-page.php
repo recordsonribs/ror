@@ -115,13 +115,6 @@
 					?>
 					<p class="more_link"><a href="<?php echo home_url(); ?>/blog/" title="News">more news &rsaquo;</a></p>
 				</div> <!-- end div.col4 -->
-				<div class="mod col5">
-					<h3>Events</h3>
-					<ul class="events">
-						<?php dbem_get_events_list("limit=3&scope=al&order=DESC"); ?>
-					</ul>
-					<p class="more_link"><a href="<?php echo home_url(); ?>/events/" title="Events">more events &rsaquo;</a></p>
-				</div> <!-- end div.col5 -->
 				<div class="mod col7">
 					<h3>Links</h3>
 					<ul>
