@@ -66,11 +66,3 @@ for <em>free download</em> under a Creative Commons license. We also provide
 <div id="page_inr">
 
 <div id="content">
-
-		<script type="text/javascript">
-			
-			window.addEvent('domready', function(){
-				new pageLoader({loadInTo:'content'});
-				new History();
-			});
-		</script>
