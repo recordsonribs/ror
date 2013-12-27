@@ -1,5 +1,6 @@
 {
     "name": "recordsonribs/ror",
+    "version": "1.2",
     "description": "The theme for the Records On Ribs website.",
     "license": "GPL",
     "type": "wordpress-theme",
