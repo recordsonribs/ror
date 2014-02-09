@@ -23,7 +23,13 @@
 	</div>
 	<div id="nav">
 		<ul>
-			<?php wp_list_pages('title_li=&exclude=60,7,13,14,15,35,45,41,43,42,224,345,20,435,461&link_before=<span>&link_after=</span>&sort_column=menu_order'); ?>
+			<li><a href="/blog/"><span>Blog</span></a></li>
+			<li><a href="/artists/"><span>Artists</span></a></li>
+			<li><a href="/releases/"><span>Releases</span></a></li>
+			<li><a href="/events/"><span>Events</span></a></li>
+			<li><a href="/manifesto/"><span>Manifesto</span></a></li>
+			<li><a href="/donate/"><span>Donate</span></a></li>
+			<li><a href="/contact/"><span>Contact</span></a></li>
 		</ul>
 	</div>
 	<div class="clear"></div>
@@ -60,11 +66,3 @@ for <em>free download</em> under a Creative Commons license. We also provide
 <div id="page_inr">
 
 <div id="content">
-
-		<script type="text/javascript">
-			
-			window.addEvent('domready', function(){
-				new pageLoader({loadInTo:'content'});
-				new History();
-			});
-		</script>
