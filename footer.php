@@ -57,7 +57,6 @@
 					</form>
 				</div> <!-- end div.mailing-list -->
 				<div class="twitter">
-					<?php //twitter_messages('recordsonribs',1,true); ?>
 					<div class="clear"></div>
 				</div> <!-- end div.twitter -->
 			</div>
