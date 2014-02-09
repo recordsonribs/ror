@@ -15,7 +15,7 @@ body {
     color: #6d6e71;
     text-align: center;
     min-width: 90em;
-    background: #fff url(http://static.recordsonribs.com/wp-content/themes/ror/images/bg.png) repeat;
+    background: #fff;
 }
 a {
     color: #b03232;
@@ -224,12 +224,6 @@ a.more-link:hover, a.more-link:active {
 }
 #title h2 a.readmore:hover {
     color: #701e1e;
-}
-#page_outr {
-    background: url(http://static.recordsonribs.com/wp-content/themes/ror/images/content_bg-top.png) repeat-x top left;
-}
-#page_inr {
-    background: url(http://static.recordsonribs.com/wp-content/themes/ror/images/content_bg-btm.png) repeat-x bottom left;
 }
 #content {
     width: 860px;
