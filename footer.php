@@ -11,11 +11,11 @@
 		<div id="cc"><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" title="Creative Commons Attribution License"><span>Creative Commons</span></a></div>
 		<div class="colgroup1">
 			<div class="col1">
-				<h2>Elsewhere</h2>
+				<h2>About This Site</h2>
 				<ul>
-					<li><a href="http://wordpress.org/" title="<?php _e('WordPress', 'sandbox'); ?>" rel="generator"><?php _e('WordPress', 'sandbox'); ?></a></li>
-					<li><a href="http://recordsonribs.com/ribcage/" title="Ribcage - Record Label Management for Wordpress">Ribcage</a></li>
-					<li><a href="http://validator.w3.org/check?uri=referer" title="W3C XHTML Validation"><abbr title="Extensible Hypertext Markup Language">XHTML</abbr></a> <span class="amp">&amp;</span> <a href="http://jigsaw.w3.org/css-validator/check/referer" title="W3C CSS Validation"><abbr title="Cascading Style Sheets">CSS</abbr></a></li>
+					<li><a href="http://recordsonribs.com/cookies/" title="Cookies Policy">Cookies Policy</a></li>
+					<li><a href="http://wordpress.org/" title="WordPress" rel="generator">Powered by WordPress</a></li>
+					<li><a href="http://recordsonribs.com/ribcage/" title="Ribcage - Record Label Management for Wordpress">Using the Ribcage plugin</a> </li>
 				</ul>
 			</div>
 			<div class="col1">
