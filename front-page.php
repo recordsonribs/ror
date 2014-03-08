@@ -115,12 +115,6 @@
 					?>
 					<p class="more_link"><a href="<?php echo home_url(); ?>/blog/" title="News">more news &rsaquo;</a></p>
 				</div> <!-- end div.col4 -->
-				<div class="mod col7">
-					<h3>Links</h3>
-					<ul>
-						<?php wp_list_bookmarks( 'category_name=Frontpage&title_li=&title_before=&title_after=&categorize=0' ); ?>
-					</ul>
-				</div> <!-- end div.col7 -->
 				<div class="clear"></div>
 			</div> <!-- end div.col3 -->
 		</div> <!-- end div.col2 -->
