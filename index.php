@@ -16,7 +16,7 @@
 			<div class="entry">
 				<?php the_content('Read the rest of this entry &raquo;'); ?>
 			</div>
-			<p class="metadata"><span class="categories">Posted in: <?php the_category(', '); ?></span> <span class="tags"><?php the_tags('Tags: #', ', #', ''); ?></span> <?php comments_popup_link('', '1', '%','comments'); ?> <?php if (function_exists('sharethis_button')) { sharethis_button(); } ?> <?php edit_post_link('Edit', '', ' '); ?></p>
+			<p class="metadata"><span class="categories">Posted in: <?php the_category(', '); ?></span> <span class="tags"><?php the_tags('Tags: #', ', #', ''); ?></span> <?php comments_popup_link('', '1', '%','comments'); ?></p>
 		</div>
 	</div>
 <?php endwhile; ?>
