@@ -1161,6 +1161,35 @@ ul.press_links li.artist {
     background: url(http://static.recordsonribs.com/wp-content/themes/ror/images/_bullet.png) no-repeat 0 2px;
     padding-left: 18px;
 }
+
+#right ul.albums-list li {
+    background: none;
+    padding-left: 0;
+}
+
+#right ul.albums-list li div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#right ul.albums-list li  li + li:before {
+    content: "| ";
+}
+
+#right ul.albums-list li ul li {
+    display: inline;
+}
+
+#right ul.albums-list li h3 {
+    margin-top: 10px;
+    text-transform: none;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0;
+    color: #2a2a2a;
+    margin-bottom: 10px;
+}
+
 #right ul li.rss {
     background: url(http://static.recordsonribs.com/wp-content/themes/ror/images/_bullet-rss.png) no-repeat top left;
     padding-left: 18px;
