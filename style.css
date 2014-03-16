@@ -265,11 +265,11 @@ div.mod-meta h3 span.year {
     font-weight: normal!important;
     letter-spacing: 0;
 }
+
 div.mod-meta a img {
-    border: 0!important;
-    width: 140px;
-    margin-bottom: 15px;
+    float: left;
 }
+
 div.mod-meta a:hover {
     border: 0!important;
 }
