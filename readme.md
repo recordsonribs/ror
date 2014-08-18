@@ -2,7 +2,7 @@
 
 This is the WordPress theme for the current Records On Ribs [website](http://recordsonribs.com).
 
-## License
+## License - GNU Affero General Public License
 
 This theme is licensed under the GNU Affero General Public License. For avoidance of doubt, the GNU Affero GPL requires the distribution of source code with an use of this code in a public computer network. If you are using it and have modified it, you must release the source code alongside. Best way to do this is fork it right here on GitHub!
 
