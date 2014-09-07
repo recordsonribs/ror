@@ -1578,7 +1578,7 @@ ul.tracklist li {
     font-family: "Helvetica Neue", Helvetica, Arial, sans serif;
     padding: 5px;
 }
-#footer input[type=text] {
+#footer input[type=email] {
     width: 150px;
     color: #6d6e71;
     margin-right: 5px;

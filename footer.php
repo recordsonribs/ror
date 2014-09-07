@@ -48,11 +48,9 @@
 			<div class="col2">
 				<h2>Mailing List</h2>
 				<div class="mailing-list">
-					<form method="post" action="http://scripts.dreamhost.com/add_list.cgi"> 
-						<input type="hidden" name="list" value="list@recordsonribs.com" /> 
-						<input type="hidden" name="recordsonribs.com" value="DomainName" />
-						<input type="hidden" name="emailit" value="1" />
-						<input name="email" type="text" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'your.name@gmail.com':this.value;" value="your.name@gmail.com" />
+					<form action="//recordsonribs.us5.list-manage.com/subscribe/post?u=c398430401592b15b5b394a5a&amp;id=4d70861eac" method="post" name="mc-embedded-subscribe-form" target="_blank">						
+					    <div style="position: absolute; left: -5000px;"><input type="text" name="b_c398430401592b15b5b394a5a_4d70861eac" tabindex="-1" value=""></div>
+						<input type="email" name="EMAIL" id="mce-EMAIL" onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'your.name@email.com':this.value;" value="your.name@email.com">
 						<input type="submit" name="submit" value="Join" />
 					</form>
 				</div> <!-- end div.mailing-list -->
