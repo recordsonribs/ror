@@ -27,7 +27,7 @@
 				</ul>
 			</div>
 			<div class="col3 ivystreet">
-				<h2><a href="http://bryan.ivystreet.net/" title="Ivy Street Designs" target="_blank">Designed by Ivy Street</a>.</h2>
+				<h2><a href="http://bryan.is/a/designer" title="Bryan Klausmeyer" target="_blank">Designed by Bryan</a>.</h2>
 			</div>
 			<div class="clear"></div>
 		</div> <!-- end div.colgroup1 -->
