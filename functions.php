@@ -1,5 +1,11 @@
 <?php
-wp_enqueue_script('jquery');
+
+function ror_enqueue_scripts() {
+	wp_enqueue_script('jquery');
+}
+
+add_action('wp_enqueue_scripts', 'ror_enqueue_scripts');
+
 
 // Produces a list of pages in the header without whitespace -- er, I mean negative space.
 function sandbox_globalnav() {
@@ -328,14 +334,6 @@ function sandbox_widgets_init() {
 
 	// Table for how many? Two? This way, please.
 	register_sidebars(5, $p);
-
-	// Finished intializing Widgets plugin, now let's load the Sandbox default widgets
-	register_sidebar_widget(__('Search', 'sandbox'), 'widget_sandbox_search', null, 'search');
-	unregister_widget_control('search');
-	register_sidebar_widget(__('Meta', 'sandbox'), 'widget_sandbox_meta', null, 'meta');
-	unregister_widget_control('meta');
-	register_sidebar_widget(array(__('RSS Links', 'sandbox'), 'widgets'), 'widget_sandbox_rsslinks');
-	register_widget_control(array(__('RSS Links', 'sandbox'), 'widgets'), 'widget_sandbox_rsslinks_control', 300, 90);
 }
 
 // Translate, if applicable
