@@ -714,8 +714,7 @@ div.index div.col3 {
     background: url(http://static.recordsonribs.com/wp-content/themes/ror/images/col3-bg.png) repeat-x top left;
 }
 div.index div.col4 {
-    border: 0!important;
-    width: 300px!important;
+    width: 540px
     float: left;
     clear: both;
 }
@@ -731,7 +730,7 @@ div.index div.col4 div.news h1 {
     font-size: 17px;
 }
 div.index div.col4 div.news div.entry {
-    width: 300px!important;
+    width: 100%;
 }
 div.index div.col5 {
     width: 220px!important;
