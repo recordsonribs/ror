@@ -98,9 +98,9 @@
 						if ( have_posts() ) : while ( have_posts() ) : the_post();
 					?>
 						<div class="news">
-							<a href="<?php bloginfo('url'); ?>/author/<?php the_author_login(); ?>/" title="<?php the_author(); ?>"><?php echo get_avatar(get_the_author_meta('id'), '35' ); ?></a>
+							<a href="<?php bloginfo('url'); ?>/author/<?php the_author_login(); ?>/" title="<?php the_author(); ?>"><?php echo get_avatar(get_the_author_meta('ID'), 35 ); ?></a>
 							<h1><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
-							<small>Posted by <a href="<?php bloginfo('url'); ?>/author/<?php the_author_login(); ?>" title="<?php the_author(); ?>/"><?php the_author(); ?></a> on <?php the_time('j F Y') ?></small>
+							<small>Posted by <a href="<?php bloginfo('url'); ?>/author/<?php echo get_the_author_meta('login'); ?>" title="<?php the_author(); ?>/"><?php the_author(); ?></a> on <?php the_time('j F Y') ?></small>
 							<div class="entry">
 								<?php the_advanced_excerpt(); ?>
 							</div>
