@@ -12,7 +12,7 @@
 				<div id="first">
 					<h3>Latest Release</h3>
 					<div class="album_art">
-						<a href="<?php echo home_url(); ?>/artists/<?php artist_slug(); ?>/<?php release_slug(); ?>" title="<?php release_title(); ?>"><span style="background: url(<?php release_cover_large();?>) top;"><em><?php release_title(); ?></em></span></a>
+						<a href="<?php echo home_url(); ?>/artists/<?php artist_slug(); ?>/<?php release_slug(); ?>" title="<?php release_title(); ?>"><img src="<?php release_cover_large();?>"></a>
 					</div>
 					<div class="blurb">
 						<?php $artist = get_artist($release['release_artist']); ?>

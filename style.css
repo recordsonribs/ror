@@ -485,11 +485,6 @@ div.index #first div.album_art {
     margin-bottom: 15px;
 }
 div.index #first div.album_art a {
-    display: block;
-    width: 290px;
-    height: 160px;
-    padding: 5px!important;
-    background: url(http://static.recordsonribs.com/wp-content/themes/ror/images/index_first_album-bg.png) no-repeat top left;
 }
 div.index #first div.album_art a:hover {
     background-position: bottom left;
