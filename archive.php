@@ -18,9 +18,9 @@ Template Name: Archive Index
 			<div class="mod post<?php if($myDate == "") { echo " sameday"; } ?>" id="post-<?php the_ID(); ?>">
 				<?php echo $myDate; ?>
 				<div class="mod-body">
-					<?php if (!is_author()) { ?><a href="<?php bloginfo('url'); ?>/author/<?php the_author_login(); ?>/" title="<?php the_author(); ?>"><?php echo get_avatar(get_the_author_meta('ID'), 35 ); ?></a><?php } ?>
+					<?php if (!is_author()) { ?><a href="<?php bloginfo('url'); ?>/author/<?php the_author_meta('user_login'); ?>/" title="<?php the_author(); ?>"><?php echo get_avatar(get_the_author_meta('ID'), 35 ); ?></a><?php } ?>
 					<h1 class="post-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
-					<p class="author">Posted by <a href="<?php bloginfo('url'); ?>/author/<?php the_author_login(); ?>" title="<?php the_author(); ?>/"><?php the_author(); ?></a> at <?php the_time('g:i a') ?></p>
+					<p class="author">Posted by <a href="<?php bloginfo('url'); ?>/author/<?php the_author_meta('user_login'); ?>" title="<?php the_author(); ?>/"><?php the_author(); ?></a> at <?php the_time('g:i a') ?></p>
 					<div class="entry">
 						<?php the_content('Read the rest of this entry &raquo;'); ?>
 					</div>

@@ -15,8 +15,8 @@ Template Name: Single
 
 			<div class="mod post" id="post-<?php the_ID(); ?>">
 				<div class="mod-meta">
-					<p><a href="<?php bloginfo('url'); ?>/author/<?php the_author_login(); ?>/" title="<?php the_author(); ?>"><?php echo get_avatar(get_the_author_meta('ID'), '35' ); ?></a></p>
-					<div class="meta author">Posted by <strong><a href="<?php bloginfo('url'); ?>/author/<?php the_author_login(); ?>/" title="<?php the_author(); ?>"><?php the_author(); ?></a></strong> on <?php the_time('F j, Y','','',false); ?> at <?php the_time(); ?> in <?php the_category(', '); ?></div><div class="meta tags"><?php the_tags('Tags: #', ', #', ''); ?></div>
+					<p><a href="<?php bloginfo('url'); ?>/author/<?php the_author_meta('user_login'); ?>/" title="<?php the_author(); ?>"><?php echo get_avatar(get_the_author_meta('ID'), '35' ); ?></a></p>
+					<div class="meta author">Posted by <strong><a href="<?php bloginfo('url'); ?>/author/<?php the_author_meta('user_login'); ?>/" title="<?php the_author(); ?>"><?php the_author(); ?></a></strong> on <?php the_time('F j, Y','','',false); ?> at <?php the_time(); ?> in <?php the_category(', '); ?></div><div class="meta tags"><?php the_tags('Tags: #', ', #', ''); ?></div>
 				</div>
 				<div class="mod-body">
 					<div class="entry">
