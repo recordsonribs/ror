@@ -45,7 +45,7 @@ h1 {
 h2 {
     font-size: 18px;
 }
-.download-page h2 {  
+.download-page h2 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -521,6 +521,10 @@ div.index #first div.artist_slug_info ul li {
     float: left;
     background: #6d6e71;
     font-size: 11px;
+}
+.artist_large_image {
+  max-width: 640px;
+  width: 100%;
 }
 div.index #first div.artist_slug_info ul li:hover {
     background: #484848;
@@ -1625,18 +1629,18 @@ ul.tracklist li {
 
 /* webkit */
 
-	.webkit #footer input, 
-	.webkit div.respond div.item input[type=text], 
-	.webkit div.respond div.item input[type=password], 
-	.webkit div.respond textarea, 
-	.webkit div.respond input[type=submit], 
-	.webkit p.more_link a, 
+	.webkit #footer input,
+	.webkit div.respond div.item input[type=text],
+	.webkit div.respond div.item input[type=password],
+	.webkit div.respond textarea,
+	.webkit div.respond input[type=submit],
+	.webkit p.more_link a,
 	.webkit a.more-link  {
      -webkit-border-radius:  4px;
  }
 
 
-	.webkit p.more_link a, 
+	.webkit p.more_link a,
 	.webkit a.more-link  {
      background:  #eee;
      border:  1px solid #eee;
@@ -1644,29 +1648,29 @@ ul.tracklist li {
  }
 
 
-	.webkit p.more_link a:hover, 
+	.webkit p.more_link a:hover,
 	.webkit a.more-link:hover  {
      background:  #6d6e71;
      border:  1px solid #6d6e71;
  }
 
 
-	.webkit p.more_link a:active, 
+	.webkit p.more_link a:active,
 	.webkit a.more-link:active  {
      background:  #2a2a2c;
      border:  1px solid #2a2a2c;
  }
 
 
-	.webkit h2, 
-	.webkit #nav, 
-	.webit div.mod-meta h3 span.day, 
+	.webkit h2,
+	.webkit #nav,
+	.webit div.mod-meta h3 span.day,
 	.webkit div.cost  {
      -webkit-text-stroke:  0.5px transparent;
  }
 
 
-	.webkit div.index #next div.artist_slug_info ul li a:hover, 
+	.webkit div.index #next div.artist_slug_info ul li a:hover,
 	.webkit #right div.artist_slug_info ul li a:hover  {
      text-shadow:  #999 0 0 10px;
  }
@@ -1687,18 +1691,18 @@ ul.tracklist li {
 
 	/* mozilla */
 
-	.gecko #footer input, 
-	.gecko div.respond div.item input[type=text], 
-	.gecko div.respond div.item input[type=password], 
-	.gecko div.respond textarea, 
-	.gecko div.respond input[type=submit], 
-	.gecko p.more_link a, 
+	.gecko #footer input,
+	.gecko div.respond div.item input[type=text],
+	.gecko div.respond div.item input[type=password],
+	.gecko div.respond textarea,
+	.gecko div.respond input[type=submit],
+	.gecko p.more_link a,
 	.gecko a.more-link  {
      -moz-border-radius:  4px;
  }
 
 
-	.gecko p.more_link a, 
+	.gecko p.more_link a,
 	.gecko a.more-link  {
      background:  #eee;
      border:  1px solid #eee;
@@ -1706,21 +1710,21 @@ ul.tracklist li {
  }
 
 
-	.gecko p.more_link a:hover, 
+	.gecko p.more_link a:hover,
 	.gecko a.more-link:hover  {
      background:  #6d6e71;
      border:  1px solid #6d6e71;
  }
 
 
-	.gecko p.more_link a:active, 
+	.gecko p.more_link a:active,
 	.gecko a.more-link:active  {
      background:  #2a2a2c;
      border:  1px solid #2a2a2c;
  }
 
 
-	.gecko div.index #next div.artist_slug_info ul li a:hover, 
+	.gecko div.index #next div.artist_slug_info ul li a:hover,
 	.gecko #right div.artist_slug_info ul li a:hover  {
      text-shadow:  #999 0 0 10px;
  }
@@ -1742,23 +1746,23 @@ ul.tracklist li {
 	/* ie */
 
 	.ie p.more_link a  {
-    
+
 		background:  url(http://static.recordsonribs.com/wp-content/themes/ror/images/more_link-bg.png) no-repeat top left;
-    
+
 		border:  0 !important;
-    
+
 		height:  25px;
-    
+
 		padding:  0 5px;
-    
+
 		width:  80px;
-    
+
 		line-height:  25px;
-    
+
 		display:  block;
-    
+
 		text-align:  center;
-    
+
 	}
 	.ie p.more_link a: hover  {
      background-position:  0 -25px;
@@ -1772,23 +1776,23 @@ ul.tracklist li {
 	/* opera */
 
 	.opera p.more_link a  {
-    
+
 		background:  url(http://static.recordsonribs.com/wp-content/themes/ror/images/more_link-bg.png) no-repeat top left;
-    
+
 		border:  0 !important;
-    
+
 		height:  25px;
-    
+
 		padding:  0 5px;
-    
+
 		width:  80px;
-    
+
 		line-height:  25px;
-    
+
 		display:  block;
-    
+
 		text-align:  center;
-    
+
 	}
 	.opera p.more_link a: hover  {
      background-position:  0 -25px;
@@ -1797,4 +1801,3 @@ ul.tracklist li {
 	.opera p.more_link a:active  {
      background-position:  0 -50px;
  }
-
