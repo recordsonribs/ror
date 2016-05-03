@@ -524,6 +524,7 @@ div.index #first div.artist_slug_info ul li {
 }
 .artist_large_image {
   max-width: 640px;
+  margin-bottom: 20px;
   width: 100%;
 }
 div.index #first div.artist_slug_info ul li:hover {
